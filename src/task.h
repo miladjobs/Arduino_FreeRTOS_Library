@@ -26,7 +26,7 @@
  */
 
 
-#define BaseType_t xTaskPeriodicCreate(	TaskFunction_t, const char * , const configSTACK_DEPTH_TYPE , void * const, UBaseType_t, TaskHandle_t * const, TickType_t)
+BaseType_t xTaskPeriodicCreate(	TaskFunction_t, const char * , const configSTACK_DEPTH_TYPE , void * const, UBaseType_t, TaskHandle_t * const, TickType_t)
 
 #ifndef INC_TASK_H
 #define INC_TASK_H
