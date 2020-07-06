@@ -333,7 +333,8 @@ is used in assert() statements. */
                             const configSTACK_DEPTH_TYPE usStackDepth,
                             void * const pvParameters,
                             UBaseType_t uxPriority,
-                            TaskHandle_t * const pxCreatedTask ) PRIVILEGED_FUNCTION;
+                            TaskHandle_t * const pxCreatedTask,
+                            TickType_t period ) PRIVILEGED_FUNCTION;
     BaseType_t xTaskPeriodicCreate( TaskFunction_t pxTaskCode,
                             const char * const pcName,  /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
                             const configSTACK_DEPTH_TYPE usStackDepth,
