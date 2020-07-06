@@ -25,7 +25,7 @@
  * 1 tab == 4 spaces!
  */
 
-#ifndef xTaskPeriodicCreate
+
 #define BaseType_t xTaskPeriodicCreate(	TaskFunction_t pxTaskCode,
 							const char * const pcName,		/*lint !e971 Unqualified char types are allowed for strings and single characters only. */
 							const configSTACK_DEPTH_TYPE usStackDepth,
