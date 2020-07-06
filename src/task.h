@@ -26,13 +26,7 @@
  */
 
 
-#define BaseType_t xTaskPeriodicCreate(	TaskFunction_t pxTaskCode,
-							const char * const pcName,		/*lint !e971 Unqualified char types are allowed for strings and single characters only. */
-							const configSTACK_DEPTH_TYPE usStackDepth,
-							void * const pvParameters,
-							UBaseType_t uxPriority,
-							TaskHandle_t * const pxCreatedTask,
-							TickType_t period )
+#define BaseType_t xTaskPeriodicCreate(	TaskFunction_t, const char * , const configSTACK_DEPTH_TYPE , void * const, UBaseType_t, TaskHandle_t * const, TickType_t)
 
 #ifndef INC_TASK_H
 #define INC_TASK_H
